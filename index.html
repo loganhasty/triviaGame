@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Timeouts</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">90's Trivia!!!</h1>
+        <span id="timer"></span>
+        <br>
+        <br>
+        <button id="start">Start Game</button>
+        <div class="questionBoard hidden">
+            <p class="question">1. What was the most popular instant messenging application in the late 90's/early 00's?</p>
+            <form>
+                <label class="radio-inline">
+            <input type="radio" name="im" value="msn" checked>MSN Messenger<br></label>
+                <label class="radio-inline">
+            <input type="radio" name="im" value="aim">AIM<br></label>
+                <label class="radio-inline">
+            <input type="radio" name="im" value="skype">Skype</label>
+            </form>
+            <p class="question">2. Which band was Nick Carter the lead singer of?</p>
+            <form>
+                <label class="radio-inline">
+            <input type="radio" name="backstreet" value="nsync" checked>NSYNC<br></label>
+                <label class="radio-inline">
+            <input type="radio" name="backstreet" value="b2m">Boyz 2 Men<br></label>
+                <label class="radio-inline">
+            <input type="radio" name="backstreet" value="backstreet"> Backstreet Boys</label>
+            </form>
+            <p class="question">3. Justin Timberlake rose to fame by singing lead vocals for which band?</p>
+            <form>
+                <label class="radio-inline">
+            <input type="radio" name="nsync" value="nsync" checked>NSYNC<br></label>
+                <label class="radio-inline">
+            <input type="radio" name="nsync" value="backstreet">Backstreet Boys<br></label>
+                <label class="radio-inline">
+            <input type="radio" name="nsync" value="onedirection">One Direction</label>
+            </form>
+            <p class="question">4. Which song was a hit by Christina Aguilera?</p>
+            <form>
+                <label class="radio-inline">
+            <input type="radio" name="christina" value="noscrubs" checked>No Scrubs<br></label>
+                <label class="radio-inline">
+            <input type="radio" name="christina" value="genieinabottle">Genie in a 
+            Bottle<br></label><label class="radio-inline">
+            <input type="radio" name="christina" value="oops">Oops I Did It Again</label>
+            </form>
+            <p class="question">5. Beyoncé was a member of which girl group?</p>
+            <form>
+                <label class="radio-inline">
+            <input type="radio" name="queenb" value="destinyschild">Destiny's Child</label>
+                <label class="radio-inline">
+            <input type="radio" name="queenb" value="spicegirls" checked>Spice Girls<br></label>
+                <label class="radio-inline">
+            <input type="radio" name="queenb" value="tlc">TLC<br></label>
+
+            </form>
+            <p class="question">6. Which 90's Tech Store is no longer in business today?</p>
+            <form>
+                <label class="radio-inline">
+            <input type="radio" name="store" value="compusa" checked>CompUSA<br></label>
+                <label class="radio-inline">
+            <input type="radio" name="store" value="circuitcity">Circuit City<br></label>
+                <label class="radio-inline">
+            <input type="radio" name="store" value="both">Both of These</label>
+            </form>
+            <p class="question">7. Now called "Adventure Landing", this attraction was very popular amongst kids in South Charlotte in the 90's:</p>
+            <form>
+                <label class="radio-inline">
+            <input type="radio" name="fun" value="djs" checked>DJ's Fun Center<br></label>
+                <label class="radio-inline">
+                    <input type="radio" name="fun" value="celebrationstation">Celebration Station</label>
+                <label class="radio-inline">
+            <input type="radio" name="fun" value="zuma">Zuma Fun Center<br></label>
+
+            </form>
+            <button id="submit">Submit Answers</button>
+        </div>
+        <div class="results hidden">
+            <h3>Results:</h3>
+        </div>
+        <button id="play-again" class="hidden">Play Again</button>
+    </div>
+    <script src="assets/javascript/app.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
