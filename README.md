@@ -1,10 +1,9 @@
 # triviaGame
 
-This is a very basic trivia game created to display proficiency in dynamic DOM manipulation. 
+This is a basic trivia game created to display proficiency in dynamic DOM manipulation, setTimeout functions and simple game logic. 
 
-This game was created using the following technologies:
-  - HTML and CSS for question creation, page layout and aesthetics.
-  - Javascript/JQuery for game logic and dynamic html.
+
+The player has one minute to answer the questions and submit. If the user fails to submit the quiz in the time allotted, the quiz will submit automatically and score based upon the answers that have been given at that point in time. 
   
 
   
